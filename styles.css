@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;   
+}
+
+.form-section { 
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 35%; /*longitud*/
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;  /* Ajusta este valor si deseas más separación */
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 35%; /*linea para alargar el color de fondo del titulo*/
+}
+
+h2 {
+    background-color: #d9eaf7;/*color del fondo del titulo*/
+    color:blue; /*color de la letras del titulo*/
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*el diseño del los label*/
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 70%; /*longitud de los bordes de los label*/
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc; /*color en los bordes de los label*/
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 8px;
+    padding: 5px;/*longitud de color de los botones*/
+    width: 40%; /*direccion y tamaño de botones*/
+    background-color: gainsboro;
+    color: black; /*el color de la letra del label generar RFC*/
+    /*border: none;*/ /*Lineas del boder de los botones*/
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray; /*color sustituido a btn*/
+}

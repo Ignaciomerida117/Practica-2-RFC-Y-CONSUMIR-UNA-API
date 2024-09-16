@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICA 2 RFC - API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="titulo">PRACTICA 2 - RFC</h2> <!--titulo PRACTICA 2-->
+
+        <!-- Formulario para generación del RFC -->
+        <div class="form-section">
+            
+            <form id="rfcForm">
+                <label for="nombre">NOMBRE:</label>
+                <input type="text" id="nombre" placeholder="Nombre">
+                <label for="apellidoPat">APELLIDO PAT:</label>
+                <input type="text" id="apellidoPat" placeholder="Apellido Paterno">
+                <label for="apellidoMat">APELLIDO MAT:</label>
+                <input type="text" id="apellidoMat" placeholder="Apellido Materno">
+                <label for="fechaNac">FECHA NACIMIENTO:</label>
+                <input type="date" id="fechaNac">
+                <button type="button" id="generarRFC">GENERAR UN RFC</button>
+                <label for="rfc">RFC:</label>
+                <input type="text" id="rfc" readonly>
+            </form>
+        </div>
+        <!-- Formulario de API REST -->
+        <h2 class="titulo">AJAX - API REST</h2> <!--titulo AJAX - API REST-->
+        <div class="form-section">
+            <input type="text" id="userId" placeholder="Ingrese ID de usuario">
+            <button id="consultarAPI">CONSULTAR API</button>
+            <br>
+            <label>NOMBRE:</label>
+            <input type="text" id="nombreAPI">
+            <br>
+            <label>EMAIL:</label>
+            <input type="text" id="emailAPI">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+    <script src="ajax.js"></script>  
+</body>
+</html>
